@@ -1,0 +1,164 @@
+/*head*/
+.Atophead{
+	background-color: #165089;
+	height: 110px;
+	width: 100%;
+}
+.Atopheadimg{
+	left: 50%;
+	width: 110px;
+	transform: translateX(-50%);
+	position: relative;
+}
+.Atopexit{
+	vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    width: 68px;
+    font-size: 17px;
+    height: 32px;
+    color: #fff;
+    background-color: #165089;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
+    float: right;
+    right: 18%;
+    position: relative;
+    top: 35%;
+}
+.Atopexit:hover{
+	color: #fff;
+    background-color: #3071a9;
+    border-color: #285e8e;
+    text-decoration: none;
+}
+
+/*headend*/
+/*middle*/
+.Bmiddle{
+	background-image: url(../img/p_bannerbg.jpg);
+    background-repeat: repeat-x;
+	height: 420px;
+    position: relative;   
+}
+.BmiddleLeftImg{
+	position: absolute;
+    left: 10%;
+    top: 20%;
+    vertical-align: middle;
+}
+.BmiddleRightImg{
+	position: absolute;
+    left: 30%;
+    top: 17%;
+    width: 90px;
+}
+.BmiddleContainer{
+	position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+	background: rgba(255,255,255,0.80);
+    border-radius: 4px;
+    color: white;
+    height: 240px;
+    width: 324px;
+    padding: 15px;
+    z-index: 1;
+}
+.BmiddleContainerCard,.BmiddleContainerWord{
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	display: block;
+    width: 100%;
+    height: 34px;
+    font-size: 14px;
+    margin: 20px auto 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 6px 12px;
+}
+.BmiddleContainerPassword{
+	color: #1DCDFF;
+	text-decoration: underline;
+	float: right!important;
+	font-size: 14px;
+}
+.BmiddleContainerPassword:hover{
+	color: #2a6496;
+}
+.BmiddleContainerWrong{
+	width: 100%;
+    margin: 0px;
+    text-align: left;
+    color: #FF3232;
+    padding: 3px 0px 0px 0px;
+    line-height: 30px;
+    white-space: nowrap;
+    font-size: 14px;
+    height: 32px;
+}
+.BmiddleContainerEnter{
+    background-color: #1DCDFF;
+    border: 1px solid #1dcdff;
+    -webkit-appearance: button;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px 20%;
+    font-size: 14px;
+    font-weight: 400;
+}
+/*middleend*/
+/*middlebottom*/
+.BmiddleBottomContainer{
+	margin-bottom: 20px;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+.BmiddleBottomContainer span{
+	display: table-cell;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+}
+/*middlebottomend*/
+
+/*bottom*/
+.BottomContainer {
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(63, 67, 66);
+	font-size: 14px;
+}
+
+.BottomContainer span {
+	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.BottomContainer img {
+	position: relative;
+	top: 4px;
+}
+
+.BottomContainer div {
+	position: relative;
+	margin-top: 10px;
+	color: white;
+}
+/*bottomend*/
